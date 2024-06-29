@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="script1.js"></script>
+
+</head>
+<body>
+    <!-- <div class="progress-bar"></div> -->
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <a href="#" class="logo-text">
+                <span class="logo-fit">Fit.</span><span class="logo-orbit">Orbit</span>
+            </a>
+        </div>
+        <button class="navbar-toggler" id="navbarToggler">
+            <span class="navbar-toggler-icon">&#9776;</span>
+        </button>
+        <div class="navbar-collapse" id="navbarCollapse">
+            <button class="close-btn" id="closeBtn">&times;</button> <!-- Added close button here -->
+            <ul class="navbar-nav">
+                <li id="faq"><a href="#">Docs</a></li>
+                <li id="faq1"><a href="#">FAQ</a></li>
+                <li id="faq1"><a href="#">Terms and Condition</a></li>
+                <!-- <li id="faq1"><a href="#">Privacy Policy</a></li> -->
+                <li id="faq1"><a href="#">Subscription Policy</a></li>
+                <li id="faq1"><a href="#">Money-Back Policy</a></li>
+                <li id="faq1"><a href="#">Contact</a></li>
+                <!-- <li id="faq1"><a href="#">e-Privacy Settings</a></li> -->
+            </ul>
+        </div>
+    </nav>
+    <div class="question-page">
+        <div class="question-container">
+            <div class="progress-bar" id="progressBar"></div>
+            <h1>How often do you exercise?</h1>
+            <div class="options-container">
+                <div class="option">
+                    <label for="lose-weight">
+                        <input type="radio" id="lose-weight" name="ques_2" value="3-4-times-a-week">
+                        <span class="emoji">🏋️‍♂️</span>
+                        <span class="option-text">3-4 times a week</span>
+                    </label>
+                </div>
+                <div class="option">
+                    <label for="increase-muscle">
+                        <input type="radio" id="increase-muscle" name="ques_2" value="Daily">
+                        <span class="emoji">🏃‍♂️</span>
+                        <span class="option-text">Daily</span>
+                    </label>
+                </div>
+                <div class="option">
+                    <label for="stay-fit">
+                        <input type="radio" id="stay-fit" name="ques_2" value="Once-a-week">
+                        <span class="emoji">🚶‍♂️</span>
+                        <span class="option-text">Once a week</span>
+                    </label>
+                </div>
+                <div class="option">
+                    <label for="flexibility">
+                        <input type="radio" id="flexibility" name="ques_2" value="Rarely">
+                        <span class="emoji">🛋️</span>
+                        <span class="option-text">Rarely</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- SVG Icon for Back Button -->
+    <svg class="back-btn" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" onclick="goBack()">
+        <path d="M18 11H7.83l2.88-2.88L9 7l-5 5 5 5 1.71-1.88L7.83 13H18v-2z" stroke-width="0.5"/>
+        <path d="M0 0h24v24H0z" fill="none"/>
+    </svg>
+
+    <script src="script1.js"></script>
+</body>
+</html>
